@@ -1,0 +1,71 @@
+ 
+
+body{
+    background-image: linear-gradient(to right top, #d16bcd, #aa8df1, #7ba9ff, #54bfff, #55d1f9, #4cddf2, #5ae7e6, #76f0d7, #82f7c0, #9ffca1, #c7fe7f, #f4fb5f);
+    font-family: 'Playball', cursive;
+    min-height:100vh;
+}
+.search_anime{
+   
+    height:50px;
+    width:auto;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:15px;
+    margin:20px 20px;
+
+}
+.series_list{
+  
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    flex-wrap: wrap;
+    gap:30px;
+    margin:40px 20px;
+    justify-content: center;
+    
+}
+.search_data{
+    width:300px;
+    padding:10px;
+    border-radius:5px;
+    border:none;
+    font-size:14px;
+    
+}
+.series_container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+     border-radius:5px;
+   overflow: hidden;
+   flex-wrap: wrap;
+   width:350px;
+    
+}
+.poster{
+    width:300px;
+    height:350px;
+    object-fit: cover;
+   
+}
+.series_details{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    margin:20px 0px;
+}
+
+i{
+    margin-right:5px;
+    font-size:18px;
+    
+   
+}
+.title{
+    font-size:25px;
+    color:black;
+    
+}
